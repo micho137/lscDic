@@ -1,0 +1,6 @@
+<div class="join m-4">
+  @for (page of getPagesArray();track page){
+<!--    <button class="join-item btn" (click)="onPageChange(page)">{{page}}</button>-->
+    <input class="join-item btn btn-square" type="radio" name="options" [attr.aria-label]="page" (click)="onPageChange(page)">
+  }
+</div>
