@@ -1,0 +1,6 @@
+<select (change)="sendSelectValue($event)" class="select select-primary w-full">
+  <option selected value="ALL">Seleccionar una opción</option>
+  @for (option of options; track option){
+    <option value="{{option.name}}">{{option.name}}</option>
+  }
+</select>

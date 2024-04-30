@@ -11,6 +11,7 @@ export class CardLSCComponent {
     name:'',
     url:'',
     config:'',
-    duration:0
+    duration:0,
+    type:''
   }
 }
